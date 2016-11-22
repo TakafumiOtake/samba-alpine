@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "smbd is starting"
+exec smbd -i

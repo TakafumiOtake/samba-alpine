@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "nmbd is starting"
+exec nmbd -i
