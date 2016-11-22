@@ -9,6 +9,5 @@ RUN apk add --update --no-cache \
         samba-common-tools \
     && mkdir -m 777 /share
 
-VOLUME /shared
 
 EXPOSE 137/udp 138/udp 139 445
