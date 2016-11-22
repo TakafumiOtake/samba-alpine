@@ -2,6 +2,8 @@ FROM takafumiotake/s6-alpine
 
 MAINTAINER takafumiotake<tikutaka.dev@gmail.com>
 
+COPY etc /etc
+
 RUN apk add --update --no-cache \
         samba \
         samba-common-tools \
