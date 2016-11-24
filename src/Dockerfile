@@ -7,7 +7,8 @@ COPY etc /etc
 RUN apk add --update --no-cache \
         samba \
         samba-common-tools \
-    && mkdir -m 777 /share
+    && mkdir -m 777 /share \
+    && chown nobody:nobody /share
 
 VOLUME /share
 
